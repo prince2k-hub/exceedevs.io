@@ -1,0 +1,165 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+     :root {
+        --color-main: #361999;
+    }
+    
+    * {
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sidebar {
+        width: 280px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding: 1rem 1.5rem;
+        background: var(--color-main);
+        color: #fff;
+    }
+    
+    .sidebar-brand {
+        height: 70px;
+    }
+    
+    .brand-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .brand-icons span {
+        font-size: 1.3rem;
+        margin-left: .5rem;
+    }
+    
+    .sidebar-user {
+        margin: 0rem 1rem 0rem;
+        text-align: center;
+    }
+    
+    .sidebar-user img {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        border-right: 2px solid #efefef;
+        border-bottom: 2px solid #efefef;
+        border-top: 2px solid #efefef;
+    }
+    
+    .sidebar-user h3 {
+        font-size: 1rem;
+    }
+    
+    .sidebar-user span {
+        font-size: .8rem;
+    }
+    
+    .sidebar-menu {
+        margin-top: 3rem;
+    }
+    
+    .menu-head {
+        text-transform: uppercase;
+        color: #8da2fb;
+        font-size: .8rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    
+    .sidebar-menu ul {
+        margin-bottom: 1.5rem;
+    }
+    
+    .sidebar-menu li {
+        margin-bottom: 1rem;
+    }
+    
+    .sidebar-menu li a {
+        color: #efefef;
+        font-size: .9rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .sidebar-menu li a span {
+        font-size: 1rem;
+        display: inline-block;
+        margin-right: .7rem;
+    }
+    
+    header {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        background: #efefef;
+        padding: 1rem 1.5rem;
+        justify-content: space-between;
+    }
+    
+    .menu-toggle label {
+        font-size: 1.5rem;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        place-items: center;
+        display: grid;
+    }
+    
+    .header-icons span {
+        margin-left: .4rem;
+        font-size: 1.4rem;
+        display: inline-block;
+    }
+    
+    .menu-toggle label:hover {
+        background: #efefef;
+    }
+    
+    .main-content {
+        margin-left: 280px;
+    }
+    
+    main {
+        padding: 1.5rem;
+        background: rgb(161, 158, 154);
+        min-height: calc(100vh - 70px);
+    }
+    
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-actions button {
+        outline: none;
+        color: #fff;
+        background: #361999;
+        border: none;
+        padding: .5rem 1rem;
+        margin-left: 1rem;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+    
+    .header-actions button span {
+        font-size: .85rem;
+        margin-right: .6rem;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+    }
+    
+    .cards-single {
+        background-color: #fff;
+        padding: 1rem;
+    }
